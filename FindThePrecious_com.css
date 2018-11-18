@@ -18,7 +18,7 @@
     font-style: normal;
 }
 body {
-    font-family: 'tolkienregular', sans-serif;
+    font-family: 'partybusiness', sans-serif;
     font-weight: normal;
     font-style: normal;
     width: auto;
@@ -50,6 +50,10 @@ p {
 section {
     margin: -2%;
     padding: 3%;
+}
+.center-pills {
+    display: flex;
+    justify-content: center;
 }
 
 .symbole {
@@ -102,10 +106,15 @@ section {
     background-color: rgba(0,0,0,0.2);
 }
 .overlay {
-    background-color: white;
+    background-color: rgba(255,255,255,0.5);
     border-radius: 20px;
     text-align: center;
 }
+.overlay_dead {
+    border-radius: 20px;
+    text-align: center;
+}
+
 .card-body {
     background-color: black;
     color: white;
@@ -117,7 +126,9 @@ section {
     visibility: hidden;
 }
 i {
-    color: orange;
+    font-family: 'partybusiness', sans-serif;
+    color: #e95420;
+    font-size: 2.5rem;
 }
 
 .imagereward {
