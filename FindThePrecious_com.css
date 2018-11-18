@@ -4,7 +4,18 @@
          url('tolkien_regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'tngani';
+    src: url('tngani.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'partybusiness';
+    src: url('partybusiness.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
     font-family: 'tolkienregular', sans-serif;
@@ -33,9 +44,18 @@ h3 {
     font-family: 'tolkienregular', serif;
     font-size: 20px;
 }
+p {
+    font-family: 'partybusiness', sans-serif;
+}
 section {
     margin: -2%;
     padding: 3%;
+}
+
+.symbole {
+    font-family: 'tngani', sans-serif;
+    font-size: 20px;
+    color: #e95420;
 }
 
 .fellows {
@@ -68,9 +88,15 @@ section {
 .footer a {
     color: white;
 }
-
+.inLine {
+    display: inline-block;
+}
+.map {
+    height: 100%;
+    width: 100%;
+}
 .logo {
-    height: 400px;
+    height: 300px;
 }
 .card-img-overlay {
     background-color: rgba(0,0,0,0.2);
@@ -79,6 +105,10 @@ section {
     background-color: white;
     border-radius: 20px;
     text-align: center;
+}
+.card-body {
+    background-color: black;
+    color: white;
 }
 .card-img-overlay:hover .overlay {
     display: none;
@@ -94,6 +124,10 @@ i {
     width:140px;
     height:140px;
     float: right;
+}
+
+.card-header {
+    background-color: #e95420;
 }
 table {
     border-collapse: collapse;

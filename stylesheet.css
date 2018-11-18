@@ -10,3 +10,17 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'tngani';
+    src: url('tngani.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'partybusiness';
+    src: url('partybusiness.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
